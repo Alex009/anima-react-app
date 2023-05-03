@@ -7,8 +7,8 @@ function Header2(props) {
 
   return (
     <Header className={`header-2 ${className || ""}`}>
-      <Logo className="logo-1" src="/img/logo--1@2x.png" alt="Logo " />
-      <Img className="img-2" src="/img/img-5@2x.png" alt="Img" />
+      <Logo className="logo-1" src={process.env.PUBLIC_URL + "/img/logo--1@2x.png"} alt="Logo " />
+      <Img className="img-2" src={process.env.PUBLIC_URL + "/img/img-5@2x.png"} alt="Img" />
     </Header>
   );
 }

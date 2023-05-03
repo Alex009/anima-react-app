@@ -34,7 +34,7 @@ function App() {
         <Route path="/:path(|catalog)">
           <Catalog
             spanText1="Aparments in Philadelphia"
-            img="/img/img-15@2x.png"
+            img={process.env.PUBLIC_URL + "/img/img-15@2x.png"}
             spanText2="Unique glamping experience"
             gridItem131Props={catalogData.gridItem131Props}
             gridItem132Props={catalogData.gridItem132Props}
@@ -58,7 +58,7 @@ function App() {
 
 export default App;
 const imageContainer1Data = {
-    src: "/img/img-1@2x.png",
+    src: process.env.PUBLIC_URL + "/img/img-1@2x.png",
 };
 
 const price1Data = {
@@ -72,7 +72,7 @@ const gridItem11Data = {
 };
 
 const imageContainer2Data = {
-    src: "/img/img-2@2x.png",
+    src: process.env.PUBLIC_URL + "/img/img-2@2x.png",
 };
 
 const price2Data = {
@@ -87,7 +87,7 @@ const gridItem12Data = {
 };
 
 const imageContainer3Data = {
-    src: "/img/img-3@2x.png",
+    src: process.env.PUBLIC_URL + "/img/img-3@2x.png",
 };
 
 const price3Data = {
@@ -96,7 +96,7 @@ const price3Data = {
 };
 
 const imageContainer4Data = {
-    src: "/img/img-4@2x.png",
+    src: process.env.PUBLIC_URL + "/img/img-4@2x.png",
 };
 
 const price4Data = {
@@ -126,7 +126,7 @@ const price5Data = {
 };
 
 const gridItem122Data = {
-    img: "/img/img-6@2x.png",
+    img: process.env.PUBLIC_URL + "/img/img-6@2x.png",
     spanText1: "daasdasdasda",
     className: "",
     priceProps: price5Data,
@@ -138,7 +138,7 @@ const price6Data = {
 };
 
 const gridItem123Data = {
-    img: "/img/img-7@2x.png",
+    img: process.env.PUBLIC_URL + "/img/img-7@2x.png",
     spanText1: "House with Kazbegi landscapes",
     className: "grid-item-2-1",
     priceProps: price6Data,
@@ -155,7 +155,7 @@ const price7Data = {
 };
 
 const gridItem124Data = {
-    img: "/img/img-8@2x.png",
+    img: process.env.PUBLIC_URL + "/img/img-8@2x.png",
     spanText1: "Hideaway tent with pool and tub",
     className: "grid-item-3-1",
     priceProps: price7Data,
@@ -167,7 +167,7 @@ const price8Data = {
 };
 
 const gridItem125Data = {
-    img: "/img/img-9@2x.png",
+    img: process.env.PUBLIC_URL + "/img/img-9@2x.png",
     spanText1: "Unique glamping experience",
     className: "grid-item-4-1",
     priceProps: price8Data,
@@ -189,7 +189,7 @@ const price9Data = {
 };
 
 const gridItem132Data = {
-    img: "/img/img-11@2x.png",
+    img: process.env.PUBLIC_URL + "/img/img-11@2x.png",
     spanText: "daasdasdasda",
     priceProps: price9Data,
 };
@@ -200,7 +200,7 @@ const price10Data = {
 };
 
 const gridItem133Data = {
-    img: "/img/img-12@2x.png",
+    img: process.env.PUBLIC_URL + "/img/img-12@2x.png",
     spanText: "House with Kazbegi landscapes",
     className: "grid-item-2-2",
     priceProps: price10Data,
@@ -212,7 +212,7 @@ const price11Data = {
 };
 
 const gridItem134Data = {
-    img: "/img/img-13@2x.png",
+    img: process.env.PUBLIC_URL + "/img/img-13@2x.png",
     spanText: "Hideaway tent with pool and tub",
     className: "grid-item-3-2",
     priceProps: price11Data,
@@ -225,7 +225,7 @@ const price12Data = {
 
 const catalogData = {
     spanText1: "Aparments in Philadelphia",
-    img: "/img/img-15@2x.png",
+    img: process.env.PUBLIC_URL + "/img/img-15@2x.png",
     spanText2: "Unique glamping experience",
     gridItem131Props: gridItem132Data,
     gridItem132Props: gridItem133Data,
@@ -241,12 +241,12 @@ const detailMobileData = {
     spanText1: "Shepherd's Hut with hot tub",
     spanText2: "",
     spanText3: <React.Fragment>Charming and<br />comfortable house</React.Fragment>,
-    img01: "/img/img-01-1@2x.png",
-    img02: "/img/img-02-1@2x.png",
-    img03: "/img/img-03-1@2x.png",
+    img01: process.env.PUBLIC_URL + "/img/img-01-1@2x.png",
+    img02: process.env.PUBLIC_URL + "/img/img-02-1@2x.png",
+    img03: process.env.PUBLIC_URL + "/img/img-03-1@2x.png",
     spanText4: "35 000 ₽",
     spanText5: <React.Fragment>Along with conventional advertising and below the line activities, organizations and corporate bodies have come to realize that they need to invest in trade shows in order to create maximum recall for their product or brand name. There are several benefits to participating in a trade show. The resort Bakhmaro is located at 2050 meters high.<br /><br />The average temperature in August is 13,4 ° C). Bakhmaro Hawa&#x27;s children of all ages are good. Here are the small ones who have chronic bronchitis, dry pleuritis, lymphadenitis, mild or moderate bronchial asthma or anemia.</React.Fragment>,
-    line: "/img/line-1@2x.png",
+    line: process.env.PUBLIC_URL + "/img/line-1@2x.png",
     headerProps: header4Data,
 };
 
@@ -258,12 +258,12 @@ const detailTabletData = {
     spanText1: "Shepherd's Hut with hot tub",
     spanText2: "",
     spanText3: "Charming and comfortable house",
-    img01: "/img/img-01-2@2x.png",
-    img02: "/img/img-02-2@2x.png",
-    img03: "/img/img-03-2@2x.png",
+    img01: process.env.PUBLIC_URL + "/img/img-01-2@2x.png",
+    img02: process.env.PUBLIC_URL + "/img/img-02-2@2x.png",
+    img03: process.env.PUBLIC_URL + "/img/img-03-2@2x.png",
     spanText4: "35 000 ₽",
     spanText5: <React.Fragment>Along with conventional advertising and below the line activities, organizations and corporate bodies have come to realize that they need to invest in trade shows in order to create maximum recall for their product or brand name. There are several benefits to participating in a trade show. The resort Bakhmaro is located at 2050 meters high.<br /><br />The average temperature in August is 13,4 ° C). Bakhmaro Hawa&#x27;s children of all ages are good. Here are the small ones who have chronic bronchitis, dry pleuritis, lymphadenitis, mild or moderate bronchial asthma or anemia.</React.Fragment>,
-    line: "/img/line-2@2x.png",
+    line: process.env.PUBLIC_URL + "/img/line-2@2x.png",
     header2Props: header22Data,
 };
 
@@ -275,12 +275,12 @@ const detailData = {
     spanText1: "Shepherd's Hut with hot tub",
     spanText2: "",
     spanText3: "Charming and comfortable house",
-    img01: "/img/img-01-3@2x.png",
-    img02: "/img/img-02-3@2x.png",
-    img03: "/img/img-03-3@2x.png",
+    img01: process.env.PUBLIC_URL + "/img/img-01-3@2x.png",
+    img02: process.env.PUBLIC_URL + "/img/img-02-3@2x.png",
+    img03: process.env.PUBLIC_URL + "/img/img-03-3@2x.png",
     spanText4: "35 000 ₽",
     spanText5: <React.Fragment>Along with conventional advertising and below the line activities, organizations and corporate bodies have come to realize that they need to invest in trade shows in order to create maximum recall for their product or brand name. There are several benefits to participating in a trade show. The resort Bakhmaro is located at 2050 meters high.<br /><br />The average temperature in August is 13,4 ° C). Bakhmaro Hawa&#x27;s children of all ages are good. Here are the small ones who have chronic bronchitis, dry pleuritis, lymphadenitis, mild or moderate bronchial asthma or anemia.</React.Fragment>,
-    line: "/img/line-3@2x.png",
+    line: process.env.PUBLIC_URL + "/img/line-3@2x.png",
     header3Props: header32Data,
 };
 
