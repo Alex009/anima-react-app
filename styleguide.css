@@ -1,0 +1,17 @@
+:root { 
+  --black: #000000;
+  --dune: #3a3335;
+  --stack: #8f8e8e;
+  --white: #ffffff;
+ 
+  --font-size-l: 16px;
+  --font-size-m: 14px;
+  --font-size-xl: 22px;
+  --font-size-xxl: 24px;
+  --font-size-xxxl: 26px;
+  --font-size-xxxxl: 32px;
+  --font-size-xxxxxl: 34px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-material_icons: "Material Icons", Helvetica;
+}
